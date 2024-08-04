@@ -1,8 +1,5 @@
 {
   "extends": "git-validator/tsconfig",
   "include": ["src"],
-  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
-  "compilerOptions": {
-    "outDir": "dist"
-  }
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }
