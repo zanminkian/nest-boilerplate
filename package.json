@@ -6,22 +6,22 @@
   "scripts": {
     "build": "tscx -rc",
     "dev": "tscx -rcw -e dist/main.js",
-    "postinstall": "git-validator install",
-    "style": "git-validator",
-    "style:update": "git-validator -u"
+    "postinstall": "fenge install",
+    "style": "fenge",
+    "style:update": "fenge -u"
   },
   "dependencies": {
-    "@nestjs/common": "10.3.10",
-    "@nestjs/core": "10.3.10",
-    "@nestjs/platform-express": "10.3.10",
+    "@nestjs/common": "10.4.12",
+    "@nestjs/core": "10.4.12",
+    "@nestjs/platform-express": "10.4.12",
     "reflect-metadata": "0.2.2",
     "rxjs": "7.8.1"
   },
   "devDependencies": {
     "@rnm/tscx": "0.1.4",
-    "@types/node": "22.1.0",
-    "git-validator": "0.18.9",
-    "typescript": "5.5.4"
+    "@types/node": "22.10.1",
+    "fenge": "0.1.8",
+    "typescript": "5.7.2"
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {

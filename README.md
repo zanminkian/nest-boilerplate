@@ -20,7 +20,7 @@
 
 - Use [ES Module](https://nodejs.org/api/esm.html#introduction).
 - Use [pnpm](https://pnpm.io/).
-- Use [git-validator](https://www.npmjs.com/package/git-validator).
+- Use [fenge](https://www.npmjs.com/package/fenge).
 
 ## Usage
 
