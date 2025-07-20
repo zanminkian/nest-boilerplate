@@ -18,13 +18,22 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@rnm/tscx": "0.1.4",
-    "@types/node": "22.10.1",
-    "fenge": "0.1.8",
-    "typescript": "5.7.2"
+    "@rnm/tscx": "0.3.7",
+    "@types/node": "20.19.9",
+    "fenge": "0.9.7",
+    "typescript": "5.8.3"
   },
-  "packageManager": "pnpm@9.5.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.19.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=20.19.0"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "10.12.4"
+    }
   }
 }
